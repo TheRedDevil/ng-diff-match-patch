@@ -75,7 +75,7 @@ class DiffMatchPatch {
 
       // Check for null inputs.
       if (text1 == null || text2 == null) {
-        throw new Error('Null input. (diff_main)');
+        //throw new Error('Null input. (diff_main)');
       }
 
       // Check for equality (speedup).
